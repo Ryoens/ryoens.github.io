@@ -27,9 +27,9 @@ class App extends Component {
         <div class="container-sd image" className='start'>
           <h1>Ryo (Enkey)</h1>
           <p class="TextSize">広島でネットワークを学んでる大学院生です</p>
-          <p class="TextSize">Go / Python / Docker / Kubernetes あたりの技術が好きで、よく触っています！</p>
+          <p class="TextSize">Go / Python / Docker / Kubernetes あたりの技術が好きです</p>
           {/* <p class="TextSize">React / Node.js / Next.js / OpenStack とかにも興味があり、現在勉強中です！</p> */}
-          <p class="TextSize">クラウドエンジニアになりたいので OpenStack にも手を出したい</p>
+          <p class="TextSize">クラウドエンジニアになりたいので OpenStack を勉強中です！</p>
         {/* この後にタグで任意の箇所に飛べるようにしたい */}
         </div>
 
