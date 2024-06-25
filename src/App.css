@@ -91,6 +91,47 @@
   justify-content: center;
 }
 
+/* .border-radius {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  background-color: green;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+} */
+
+.border-radius {
+  width: 200px; /* 円の直径 */
+  height: 200px; /* 円の直径 */
+  line-height: 200px; /* 円の中にテキストを中央寄せ */
+  border-radius: 50%; /* 円形にするための設定 */
+  /* background-color: green; */
+  color: #fff;
+  border: 2px solid green;
+  overflow: hidden; /* 円形からはみ出す部分を隠す */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 画像を円形にフィットさせる */
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* 親要素の幅に合わせる */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
