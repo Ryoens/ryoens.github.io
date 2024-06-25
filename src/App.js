@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; // BootstrapのCSSをインポート
 import { Button } from 'react-bootstrap';
+import CircleImage from './components/CircleImage';
 
 class App extends Component {
   render() {
@@ -25,11 +26,18 @@ class App extends Component {
           </Navbar>
 
         <div class="container-sd image" className='start'>
+          <div className='circle'>
+            <CircleImage 
+              // imageUrl="https://example.com/your-image.jpg" 
+              altText="Image"
+            />
+          </div>
           <h1>Ryo (Enkey)</h1>
           <p class="TextSize">広島でネットワークを学んでる大学院生です</p>
-          <p class="TextSize">Go / Python / Docker / Kubernetes あたりの技術が好きです</p>
+          <p class="TextSize">Go / Python / Docker あたりの技術が好きです</p>
           {/* <p class="TextSize">React / Node.js / Next.js / OpenStack とかにも興味があり、現在勉強中です！</p> */}
-          <p class="TextSize">クラウドエンジニアになりたいので OpenStack を勉強中です！</p>
+          <p class="TextSize">最近はProxmox / Kubernetes / OpenStack を勉強してます！</p>
+          <p class="TextSize">React初心者です</p>
         {/* この後にタグで任意の箇所に飛べるようにしたい */}
         </div>
 
@@ -72,6 +80,7 @@ class App extends Component {
         <div className='left'>
           <ul className='list_none'>
             <li>2024/05　基本情報技術者</li>
+            <li>2024/06　IPv6基礎検定</li>
           </ul>
           </div>
         </div>
