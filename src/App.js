@@ -32,7 +32,7 @@ class App extends Component {
               altText="Image"
             />
           </div>
-          <h1>Ryo (Enkey)</h1>
+          <h1> Ryo (Enkey) </h1>
           <p class="TextSize">広島でネットワークを学んでる大学院生です</p>
           <p class="TextSize">Go / Python / Docker あたりの技術が好きです</p>
           {/* <p class="TextSize">React / Node.js / Next.js / OpenStack とかにも興味があり、現在勉強中です！</p> */}
