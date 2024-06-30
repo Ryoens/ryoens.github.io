@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import logo from './logo.svg';
 import './App.css';
@@ -106,4 +107,17 @@ class App extends Component {
   }
 }
 
-export default App;
+class RouterApp extends Component {
+  render() {
+    return (
+      <Router>
+        <Routes>
+          <Route path="/my-website" element={<Navigate to="/" replace />} />
+          <Route path="/" element={<App />} />
+        </Routes>
+      </Router>
+    );
+  }
+}
+
+export default RouterApp;
