@@ -107,17 +107,18 @@ class App extends Component {
   }
 }
 
-class RouterApp extends Component {
-  render() {
-    return (
-      <Router>
-        <Routes>
-          <Route path="/my-website" element={<Navigate to="/" replace />} />
-          <Route path="/" element={<App />} />
-        </Routes>
-      </Router>
-    );
-  }
-}
+// class RouterApp extends Component {
+//   render() {
+//     return (
+//       <Router>
+//         <Routes>
+//           <Route path="/my-website" element={<Navigate to="/" replace />} />
+//           <Route path="/" element={<App />} />
+//         </Routes>
+//       </Router>
+//     );
+//   }
+// }
 
-export default RouterApp;
+export default App;
+// export default RouterApp;
