@@ -13,7 +13,7 @@ class App extends Component {
         <body>
           <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
               <Navbar.Brand href="#home" className="text-center helvetica-font">
-                  <h1 style={{color: 'black'}}>&nbsp;Enkey.jp</h1>
+                  <h1 style={{color: 'black'}}>&nbsp;Enkey.net</h1>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
@@ -38,7 +38,7 @@ class App extends Component {
           <p class="TextSize">Go / Python / Docker あたりの技術が好きです</p>
           {/* <p class="TextSize">React / Node.js / Next.js / OpenStack とかにも興味があり、現在勉強中です！</p> */}
           <p class="TextSize">最近はProxmox / Kubernetes / OpenStack を勉強してます！</p>
-          <p class="TextSize">React初心者です</p>
+          <p class="TextSize">React (frontend全般) 初心者です</p>
         {/* この後にタグで任意の箇所に飛べるようにしたい */}
         </div>
 

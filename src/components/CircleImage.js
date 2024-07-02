@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import localImage from '../logo.svg'; // 任意の画像を挿入
+import localImage from '../images/izumo.jpeg'; // 任意の画像を挿入
 
 const CircleImage = ({ imageUrl, altText }) => {
     const imageSrc = imageUrl || localImage;
