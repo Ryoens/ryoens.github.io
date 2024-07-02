@@ -107,6 +107,22 @@ class App extends Component {
   }
 }
 
+class RouterApp extends Component {
+  render() {
+    return (
+      <Router basename="/">
+        <Routes>
+          <Route exact path="/" element={<App />} />
+          {/* Add other routes here */}
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      </Router>
+    );
+  }
+}
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<RouterApp />);
 // class RouterApp extends Component {
 //   render() {
 //     return (
