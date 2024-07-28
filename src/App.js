@@ -36,7 +36,6 @@ class App extends Component {
           <h1> Ryo (Enkey) </h1>
           <p class="TextSize">広島でネットワークを学んでる大学院生です</p>
           <p class="TextSize">Go / Python / Docker あたりの技術が好きです</p>
-          {/* <p class="TextSize">React / Node.js / Next.js / OpenStack とかにも興味があり、現在勉強中です！</p> */}
           <p class="TextSize">最近はProxmox / Kubernetes / OpenStack を勉強してます！</p>
           <p class="TextSize">React (frontend全般) 初心者です</p>
         {/* この後にタグで任意の箇所に飛べるようにしたい */}
@@ -91,11 +90,12 @@ class App extends Component {
           <h2>Event</h2>
           <div className='left'>
           <ul className='list_none'>
-            <li>2022/03　Ruby合宿2022春 (オンライン)</li>
-            <li>2022/09　株式会社GMOインターネット インフラインターン 5days</li>
-            <li>2023/06　株式会社サイバーエージェント クラウド体験型インターンシップ <br></br><div className='profile'>~仮想マシン編~ 2days</div></li>
-            <li>2023/09 ~ 2024/03:　広島地域IPv6推進委員会 IPv6勉強会</li>
+            <li>2024/07:　JANOG54 若者支援</li>
             <li>2024/04:　GMO DevSeqOpsThon 2024</li>
+            <li>2023/09 ~ 2024/03:　広島地域IPv6推進委員会 IPv6勉強会</li>
+            <li>2023/06　株式会社サイバーエージェント クラウド体験型インターンシップ ~仮想マシン編~ 2days</li>
+            <li>2022/09　株式会社GMOインターネット インフラインターン 5days</li>
+            <li>2022/03　Ruby合宿2022春 (オンライン)</li>
           </ul>
           </div>
         </div>
