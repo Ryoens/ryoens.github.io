@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import logo from './logo.svg';
 import './App.css';
@@ -36,7 +36,7 @@ class App extends Component {
           <h1> Ryo (Enkey) </h1>
           <p class="TextSize">広島でネットワークを学んでる大学院生です</p>
           <p class="TextSize">Go / Python / Docker あたりの技術が好きです</p>
-          <p class="TextSize">最近はProxmox / Kubernetes / OpenStack を勉強してます！</p>
+          <p class="TextSize">最近はProxmox / Kubernetes / BGP などを勉強してます！</p>
           <p class="TextSize">React (frontend全般) 初心者です</p>
         {/* この後にタグで任意の箇所に飛べるようにしたい */}
         </div>
@@ -86,16 +86,32 @@ class App extends Component {
         </div>
         
         {/* 一番最新のやつにNewマークをつける */}
+        {/* インターンとイベントで分ける */}
         <div class="container-sd image" className='line'>
           <h2>Event</h2>
+          <div className='margin'></div>
+          <h3>Internship</h3>
           <div className='left'>
           <ul className='list_none'>
-            <li>2024/07:　JANOG54 若者支援</li>
-            <li>2024/04:　GMO DevSeqOpsThon 2024</li>
-            <li>2023/09 ~ 2024/03:　広島地域IPv6推進委員会 IPv6勉強会</li>
-            <li>2023/06　株式会社サイバーエージェント クラウド体験型インターンシップ ~仮想マシン編~ 2days</li>
-            <li>2022/09　株式会社GMOインターネット インフラインターン 5days</li>
-            <li>2022/03　Ruby合宿2022春 (オンライン)</li>
+            <li>2024/10: ソニーネットワークコミュニケーションズ株式会社 インターン 2weeks</li>
+            <li>2024/09: freee株式会社 就業型インターン(統合モジュール) 2weeks</li>
+            <li>2024/08: さくらインターネット株式会社 インターン 5days</li>
+            <li>2024/08: アルテリア・ネットワークス株式会社 インターン 5days</li>
+            <li>2024/08: ニフティ株式会社 インターン 5days</li>
+            <li>2024/07: NTTドコモ TechWorkshop ネットワーク 1day</li>
+            <li>2023/06: 株式会社サイバーエージェント クラウド体験型インターンシップ ~仮想マシン編~ 2days</li>
+            <li>2022/09: 株式会社GMOインターネット インフラインターン 5days</li>
+          </ul>
+          </div>
+          <div className='margin'></div>
+          <h3>その他</h3>
+          <div className='left'>
+          <ul className='list_none'>
+            <li>2024/08: セキュリティミニキャンプ広島</li>
+            <li>2024/07: JANOG54 若者支援</li>
+            <li>2024/04: GMO DevSeqOpsThon 2024</li>
+            <li>2023/09 ~ 2024/03: 広島地域IPv6推進委員会 IPv6勉強会</li>
+            <li>2022/03 Ruby合宿2022春 (オンライン)</li>
           </ul>
           </div>
         </div>
@@ -106,19 +122,6 @@ class App extends Component {
       );
   }
 }
-
-// class RouterApp extends Component {
-//   render() {
-//     return (
-//       <Router>
-//         <Routes>
-//           <Route path="/my-website" element={<Navigate to="/" replace />} />
-//           <Route path="/" element={<App />} />
-//         </Routes>
-//       </Router>
-//     );
-//   }
-// }
 
 export default App;
 // export default RouterApp;
