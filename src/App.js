@@ -13,7 +13,7 @@ class App extends Component {
         <body>
           <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
               <Navbar.Brand href="#home" className="text-center helvetica-font">
-                  <h1 style={{color: 'black'}}>&nbsp;Enkey.net</h1>
+                  <h1 style={{color: 'black'}}>&nbsp;enkey.net</h1>
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
@@ -29,15 +29,13 @@ class App extends Component {
         <div class="container-sd image" className='start'>
           <div className='circle'>
             <CircleImage 
-              // imageUrl="https://example.com/your-image.jpg" 
               altText="Image"
             />
           </div>
           <h1> Ryo (Enkey) </h1>
+          <div style={{ marginTop: '30px' }}></div>
           <p class="TextSize">広島でネットワークを学んでる大学院生です</p>
-          <p class="TextSize">Go / Python / Docker あたりの技術が好きです</p>
-          <p class="TextSize">最近はProxmox / Kubernetes / BGP などを勉強してます！</p>
-          <p class="TextSize">React (frontend全般) 初心者です</p>
+          <p class="TextSize">Go / Proxmox / Docker / BGP のようなインフラ技術が好きです</p>
         {/* この後にタグで任意の箇所に飛べるようにしたい */}
         </div>
 
@@ -65,10 +63,10 @@ class App extends Component {
           <h3>Account</h3>
           <div className='left'>
           <ul className='list_none'>
-            <li>X (Twitter):　<a href="https://twitter.com/enkey_216" class="link">@enkey_216</a></li>
-            <li>GitHub:　<a href="https://github.com/Ryoens" class="link">@Ryoens</a></li>
-            <li>Zenn:　<a href="https://zenn.dev/enkey" class="link">@enkey</a></li>
-            <li>discord:　@ryo2252</li>
+            <li>X (Twitter): <a href="https://twitter.com/enkey_216" class="link">@enkey_216</a></li>
+            <li>GitHub: <a href="https://github.com/Ryoens" class="link">@Ryoens</a></li>
+            <li>Zenn: <a href="https://zenn.dev/enkey" class="link">@enkey</a></li>
+            <li>discord: @ryo2252</li>
           </ul>
           </div>
         </div>
@@ -79,8 +77,8 @@ class App extends Component {
         <h2>Qualification</h2>
         <div className='left'>
           <ul className='list_none'>
-            <li>2024/05　基本情報技術者</li>
-            <li>2024/06　IPv6基礎検定</li>
+            <li>2024/05: 基本情報技術者</li>
+            <li>2024/06: IPv6基礎検定</li>
           </ul>
           </div>
         </div>
@@ -93,20 +91,17 @@ class App extends Component {
           <h3>Internship</h3>
           <div className='left'>
           <ul className='list_none'>
-            <li>2024/10: ソニーネットワークコミュニケーションズ株式会社 インターン 2weeks</li>
-            <li>2024/09: freee株式会社 就業型インターン(統合モジュール) 2weeks</li>
-            <li>2024/08: さくらインターネット株式会社 インターン 5days</li>
-            <li>2024/08: アルテリア・ネットワークス株式会社 インターン 5days</li>
-            <li>2024/08: ニフティ株式会社 インターン 5days</li>
-            <li>2024/07: NTTドコモ TechWorkshop ネットワーク 1day</li>
-            <li>2023/06: 株式会社サイバーエージェント クラウド体験型インターンシップ ~仮想マシン編~ 2days</li>
-            <li>2022/09: 株式会社GMOインターネット インフラインターン 5days</li>
+          非公開
           </ul>
           </div>
           <div className='margin'></div>
           <h3>その他</h3>
           <div className='left'>
           <ul className='list_none'>
+            <li>2026/02: JANOG57 NETCON委員</li>
+            <li>2025/07: JANOG56 NOC(L2L3)</li>
+            <li>2025/03: ICTSC 2024 本戦出場</li>
+            <li>2025/01: JANOG55 NOC(L2L3)</li>
             <li>2024/08: セキュリティミニキャンプ広島</li>
             <li>2024/07: JANOG54 若者支援</li>
             <li>2024/04: GMO DevSeqOpsThon 2024</li>
